@@ -1,0 +1,10 @@
+/.vscode
+/bustime
+/bustime 2
+/config.ini
+/management
+/core
+/env
+/placeholder_name.json
+*.env
+twitter_json.json

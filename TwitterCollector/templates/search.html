@@ -1,0 +1,46 @@
+<div id='pdr'>
+    <div class='card-title'>
+        <h1>Twitter Data Collection</h1>
+        <h3>At the moment it can only get english tweets</h3>
+        </div>
+        <form hx-post='{% url "request" %}' hx-target='#pdr' class='card-body'>
+            <label for="hashtag"><h6>Hashtag:</h6></label>
+            <input type="text" id="hashtag" name="hashtag"><br>
+            <button class='btn btn-success submit' id='submit'>Submit</button>
+        </form>
+    </div> 
+    {%if tweets%}
+    <table id='my_table'>
+    <thead>
+        <tr>
+        <th>Order</th>
+        <th>ID</th>
+        <th>Date</th>
+        <th>Username</th>
+        <th>Nickname</th>
+        <th>Content</th>
+        <th>Likes</th>
+        <th>Retweets</th>
+        <th>Followers</th>
+        <th>Verified</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%for tweet in tweets%}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{tweet.t_id}}</td>
+            <td style="min-width: 90px;">{{tweet.t_date|date:"Y-m-d"}}<br>{{tweet.t_date|date:"H:i:s"}}</td>
+            <td>{{tweet.t_username}}</td>
+            <td>{{tweet.t_nickname}}</td>
+            <td style="text-align: justify;">{{tweet.t_text}}</td>
+            <td>{{tweet.t_likes}}</td>
+            <td>{{tweet.t_retweets}}</td>
+            <td>{{tweet.t_followers}}</td>
+            <td>{{tweet.t_verified}}</td>
+        </tr>
+        {%endfor%}
+    </tbody>
+    </table>
+    {%endif%}
+</div>
