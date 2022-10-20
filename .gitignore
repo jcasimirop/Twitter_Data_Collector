@@ -6,7 +6,6 @@
 /core
 /env
 *.env
-TwitterCollector/db.sqlite3
 twitter_json.json
 TwitterCollector/db.sqlite3
 TwitterCollector/TweetSearch/__pycache__/urls.cpython-39.pyc
