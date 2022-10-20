@@ -5,6 +5,11 @@
 /management
 /core
 /env
-/placeholder_name.json
 *.env
+TwitterCollector/db.sqlite3
 twitter_json.json
+TwitterCollector/db.sqlite3
+TwitterCollector/TweetSearch/__pycache__/urls.cpython-39.pyc
+TwitterCollector/TweetSearch/__pycache__/views.cpython-39.pyc
+TwitterCollector/TwitterCollector/__pycache__/settings.cpython-39.pyc
+TwitterCollector/db.sqlite3
