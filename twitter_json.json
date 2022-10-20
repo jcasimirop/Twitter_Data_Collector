@@ -2,639 +2,762 @@
     "data": [
         {
             "entities": {
-                "hashtags": [
-                    {
-                        "start": 213,
-                        "end": 217,
-                        "tag": "esg"
-                    },
-                    {
-                        "start": 218,
-                        "end": 225,
-                        "tag": "mining"
-                    },
-                    {
-                        "start": 226,
-                        "end": 244,
-                        "tag": "responsiblemining"
-                    },
-                    {
-                        "start": 245,
-                        "end": 259,
-                        "tag": "climatechange"
-                    },
-                    {
-                        "start": 260,
-                        "end": 278,
-                        "tag": "socialperformance"
-                    }
-                ],
                 "urls": [
                     {
-                        "start": 188,
-                        "end": 211,
-                        "url": "https://t.co/DJyDObE0vB",
-                        "expanded_url": "https://zcu.io/Eojv",
-                        "display_url": "zcu.io/Eojv",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1580127077948592128/nqF7LxhL?format=jpg&name=orig",
-                                "width": 1500,
-                                "height": 1000
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1580127077948592128/nqF7LxhL?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "ESG risks and geopolitics ranked top risks for mining companies \u2013 survey \u2014 Trubshaw Cumberlege",
-                        "description": "Global mining and metals executives rank environment, social and governance (ESG), geopolitics and climate change as the top three risks facing their business over the next 12 months, a survey by consultancy EY has found.",
-                        "unwound_url": "https://www.trubshaw.co/trubshaw-tribune/esg-risks-and-geopolitics-ranked-top-risks-for-mining-companies-survey"
+                        "start": 215,
+                        "end": 238,
+                        "url": "https://t.co/1cwouORudy",
+                        "expanded_url": "https://twitter.com/NewlandTapHull/status/1583103830287298561/photo/1",
+                        "display_url": "pic.twitter.com/1cwouORudy",
+                        "media_key": "3_1583103814961348608"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 132,
+                        "end": 147,
+                        "tag": "NewlandTapHull"
+                    },
+                    {
+                        "start": 148,
+                        "end": 166,
+                        "tag": "BoneMachineBrewCo"
+                    },
+                    {
+                        "start": 167,
+                        "end": 175,
+                        "tag": "Taproom"
+                    },
+                    {
+                        "start": 176,
+                        "end": 186,
+                        "tag": "CraftBeer"
+                    },
+                    {
+                        "start": 187,
+                        "end": 208,
+                        "tag": "SupportLocalBusiness"
+                    },
+                    {
+                        "start": 209,
+                        "end": 214,
+                        "tag": "Wine"
                     }
                 ]
             },
-            "id": "1580127068763095040",
-            "edit_history_tweet_ids": [
-                "1580127068763095040"
-            ],
-            "text": "'Global mining and metals executives rank environment, social and governance (ESG), geopolitics and climate change as the top three risks facing their business over the next 12 months...' https://t.co/DJyDObE0vB\n\n#esg #mining #responsiblemining #climatechange #socialperformance",
+            "text": "No need to whine, we now have WINE! Whether you\u2019re a red, white or sparkling kinda person, we got you covered! (Sorry ros\u00e9 people!) #NewlandTapHull #BoneMachineBrewCo #Taproom #CraftBeer #SupportLocalBusiness #Wine https://t.co/1cwouORudy",
+            "created_at": "2022-10-20T14:32:20.000Z",
+            "author_id": "1577328217387565057",
+            "id": "1583103830287298561",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 0,
                 "quote_count": 0
             },
-            "created_at": "2022-10-12T09:23:45.000Z",
-            "author_id": "2879985187"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 0,
-                        "end": 14,
-                        "tag": "ClimateChange"
-                    }
-                ],
-                "annotations": [
-                    {
-                        "start": 1,
-                        "end": 13,
-                        "probability": 0.5262,
-                        "type": "Other",
-                        "normalized_text": "ClimateChange"
-                    },
-                    {
-                        "start": 16,
-                        "end": 24,
-                        "probability": 0.895,
-                        "type": "Place",
-                        "normalized_text": "Greenland"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 227,
-                        "end": 250,
-                        "url": "https://t.co/Ghj6WpgN85",
-                        "expanded_url": "https://www.bbc.co.uk/news/world-europe-63135211",
-                        "display_url": "bbc.co.uk/news/world-eur\u2026",
-                        "status": 200,
-                        "title": "Climate change: Greenland's culture shifts as Arctic heats up",
-                        "description": "As temperatures rise and sea-ice melts, lifestyles are changing as fast as the climate in Greenland.",
-                        "unwound_url": "https://www.bbc.co.uk/news/world-europe-63135211"
-                    }
-                ]
-            },
-            "id": "1580127032867897344",
             "edit_history_tweet_ids": [
-                "1580127032867897344"
-            ],
-            "text": "#ClimateChange: Greenland's culture shifts as Arctic heats up. \"Today it is unpredictable and too dangerous to go fishing with my sled dogs,\" a local explains. He stopped sledding two years ago and now he only fishes by boat. \nhttps://t.co/Ghj6WpgN85",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:23:36.000Z",
-            "author_id": "1715081652"
+                "1583103830287298561"
+            ]
         },
         {
             "entities": {
-                "hashtags": [
-                    {
-                        "start": 235,
-                        "end": 253,
-                        "tag": "coastalresilience"
-                    },
-                    {
-                        "start": 254,
-                        "end": 268,
-                        "tag": "climatechange"
-                    },
-                    {
-                        "start": 269,
-                        "end": 280,
-                        "tag": "adaptation"
-                    }
-                ],
                 "urls": [
-                    {
-                        "start": 210,
-                        "end": 233,
-                        "url": "https://t.co/t08lOYezRw",
-                        "expanded_url": "https://www.youtube.com/watch?v=vdgfxJLeKt0",
-                        "display_url": "youtube.com/watch?v=vdgfxJ\u2026",
-                        "status": 200,
-                        "title": "France: la mer monte mais l'homme tarde \u00e0 d\u00e9m\u00e9nager faute de moyens | AFP",
-                        "description": "Deux \u00e9boulements de falaises en \u00e0 peine un mois ont alarm\u00e9 cet hiver les habitants du Tilleul, pr\u00e8s d'Etretat. Le ph\u00e9nom\u00e8ne d\u2019\u00e9rosion est naturel mais l'\u00e9l\u00e9v...",
-                        "unwound_url": "https://www.youtube.com/watch?v=vdgfxJLeKt0"
-                    }
-                ]
-            },
-            "id": "1580126652671365120",
-            "edit_history_tweet_ids": [
-                "1580126652671365120"
-            ],
-            "text": "A worthwhile watch, check out this fascinating and informative AFB video report by Commune Quiberville featuring part of PACCo's Basse Sa\u00e2ne 2050 project, and showing why these kinds of projects are so needed:\nhttps://t.co/t08lOYezRw\n\n#coastalresilience #climatechange #adaptation",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:22:05.000Z",
-            "author_id": "1373941757268918282"
-        },
-        {
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 276,
-                        "end": 284,
-                        "username": "YouTube",
-                        "id": "10228272"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 217,
-                        "end": 231,
-                        "tag": "climatechange"
-                    },
-                    {
-                        "start": 232,
-                        "end": 244,
-                        "tag": "byrondonald"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 248,
-                        "end": 271,
-                        "url": "https://t.co/plYqERvIoy",
-                        "expanded_url": "https://youtube.com/shorts/vD8xMgrMOBU?feature=share",
-                        "display_url": "youtube.com/shorts/vD8xMgr\u2026",
-                        "images": [
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1579589297623433219/wJZ6sdv_?format=jpg&name=orig",
-                                "width": 480,
-                                "height": 360
-                            },
-                            {
-                                "url": "https://pbs.twimg.com/news_img/1579589297623433219/wJZ6sdv_?format=jpg&name=150x150",
-                                "width": 150,
-                                "height": 150
-                            }
-                        ],
-                        "status": 200,
-                        "title": "Electric Cars won\u2019t help with climate change #climatechange #byrondonalds #democrats #tiktokviral",
-                        "description": "Byron Donalds is a us Congress man 19th district in Florida. He\u2019s spreading awareness about electric cars. Apparently they will go back to coal to make power...",
-                        "unwound_url": "https://www.youtube.com/shorts/vD8xMgrMOBU?feature=share"
-                    }
-                ]
-            },
-            "id": "1580126625743925250",
-            "edit_history_tweet_ids": [
-                "1580126625743925250"
-            ],
-            "text": "Dear leftist climate nuts I've said it for YEARS. Listen to what he says.\n\nStart thinking past step one of a problem. You'll look smarter &amp;you might get something done\nElectric Cars won\u2019t help with climate change #climatechange #byrondonald... https://t.co/plYqERvIoy via @YouTube",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:21:59.000Z",
-            "author_id": "581375710"
-        },
-        {
-            "entities": {
-                "hashtags": [
-                    {
-                        "start": 164,
-                        "end": 178,
-                        "tag": "climatechange"
-                    },
-                    {
-                        "start": 179,
-                        "end": 195,
-                        "tag": "carbonfootprint"
-                    },
                     {
                         "start": 196,
-                        "end": 211,
-                        "tag": "sustainability"
-                    },
-                    {
-                        "start": 212,
-                        "end": 232,
-                        "tag": "sustainablebusiness"
-                    },
-                    {
-                        "start": 233,
-                        "end": 249,
-                        "tag": "climatepositive"
-                    },
-                    {
-                        "start": 250,
-                        "end": 264,
-                        "tag": "carbonneutral"
-                    },
-                    {
-                        "start": 265,
-                        "end": 277,
-                        "tag": "glosclimate"
+                        "end": 219,
+                        "url": "https://t.co/Hsm6VAP0AK",
+                        "expanded_url": "https://twitter.com/CJGilchrist2/status/1577784200073138176",
+                        "display_url": "twitter.com/CJGilchrist2/s\u2026"
                     }
                 ],
-                "urls": [
-                    {
-                        "start": 136,
-                        "end": 159,
-                        "url": "https://t.co/kNCcxqulFm",
-                        "expanded_url": "https://buff.ly/3At8cPY",
-                        "display_url": "buff.ly/3At8cPY",
-                        "status": 200,
-                        "title": "The Road to Net Zero",
-                        "description": "The steps you need to take to continue your journey to Net Zero\u2026",
-                        "unwound_url": "https://go-positive.hubspotpagebuilder.com/conversation-with-go-climate-positive-0"
-                    },
-                    {
-                        "start": 278,
-                        "end": 301,
-                        "url": "https://t.co/9rpKUqDcmn",
-                        "expanded_url": "https://twitter.com/EMcquone/status/1580126381882474496/photo/1",
-                        "display_url": "pic.twitter.com/9rpKUqDcmn",
-                        "media_key": "3_1580126378900561923"
-                    }
-                ]
-            },
-            "id": "1580126381882474496",
-            "edit_history_tweet_ids": [
-                "1580126381882474496"
-            ],
-            "text": "Are you considering committing your business to Net Zero? Download our FREE guide \"The Road to Net Zero\" to learn how, step by step.  \n\nhttps://t.co/kNCcxqulFm   \n\n#climatechange #carbonfootprint #sustainability #sustainablebusiness #climatepositive #carbonneutral #glosclimate https://t.co/9rpKUqDcmn",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 0,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:21:01.000Z",
-            "author_id": "1082864313658994688"
-        },
-        {
-            "entities": {
                 "hashtags": [
                     {
-                        "start": 32,
-                        "end": 46,
-                        "tag": "ClimateChange"
-                    },
-                    {
-                        "start": 153,
-                        "end": 168,
-                        "tag": "GenderEquality"
-                    },
-                    {
-                        "start": 173,
-                        "end": 196,
-                        "tag": "FeministClimateJustice"
-                    },
-                    {
-                        "start": 206,
-                        "end": 212,
-                        "tag": "COP27"
+                        "start": 16,
+                        "end": 21,
+                        "tag": "wine"
                     }
                 ],
-                "annotations": [
+                "cashtags": [
                     {
-                        "start": 33,
-                        "end": 45,
-                        "probability": 0.7014,
-                        "type": "Other",
-                        "normalized_text": "ClimateChange"
+                        "start": 0,
+                        "end": 6,
+                        "tag": "NWINF"
                     },
                     {
-                        "start": 207,
-                        "end": 211,
-                        "probability": 0.8673,
-                        "type": "Other",
-                        "normalized_text": "COP27"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 214,
-                        "end": 237,
-                        "url": "https://t.co/kUmeJUYqzO",
-                        "expanded_url": "https://bit.ly/AfricanFeministsCOP27",
-                        "display_url": "bit.ly/AfricanFeminis\u2026",
-                        "status": 200,
-                        "title": "African Women\u2019s & Girls\u2019 Demands for COP27 | Women & Gender Constituency",
-                        "description": "After six years, the 2022 climate negotiations (COP27) are now back on the African continent. At this critical time when the world and Africa particularly is battling multiple crises \u2014 climate change, economic crisis, and the fallout from the COVID-19 pandemic \u2014 it is time for the global community to prioritize the needs of the region. Africa has contributed negligibly to climate change but been among the hardest hit by climate impacts. Although a changing climate affects all, women and girls\u2014particularly",
-                        "unwound_url": "https://womengenderclimate.org/african-womens-girls-demands-for-cop27/"
-                    },
-                    {
-                        "start": 238,
-                        "end": 261,
-                        "url": "https://t.co/fofsLDp4w7",
-                        "expanded_url": "https://twitter.com/WGC_Climate/status/1580126310537756673/photo/1",
-                        "display_url": "pic.twitter.com/fofsLDp4w7",
-                        "media_key": "3_1580126233869828096"
+                        "start": 7,
+                        "end": 15,
+                        "tag": "WINE.LN"
                     }
                 ]
             },
-            "id": "1580126310537756673",
-            "edit_history_tweet_ids": [
-                "1580126310537756673"
-            ],
-            "text": "\u2728Launching now!\u2728\n\nWant to fight #ClimateChange? Listen to African women &amp; girls. Learn more about the demands from a coalition of 150+ advocates for #GenderEquality and #FeministClimateJustice ahead of #COP27: https://t.co/kUmeJUYqzO https://t.co/fofsLDp4w7",
+            "text": "$NWINF $WINE.LN #wine \n\nNot bankrupt\n\nU.S. Revs\n1Q23 -9%\n2Q23 +12%\n\nU.K. Revs\n1Q23 -13%\n2Q23 +3%\n\n$25mm net cash\n$210mm Inventory\n$15mm EBIT FY23e\n\n$105mm Mkt Cap, $81mm EV\n\nFCF Yield ex-CAC 50%+ https://t.co/Hsm6VAP0AK",
+            "created_at": "2022-10-20T14:32:05.000Z",
+            "author_id": "1022243858",
+            "id": "1583103769503375360",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 0,
                 "quote_count": 0
             },
-            "created_at": "2022-10-12T09:20:44.000Z",
-            "author_id": "2902808548"
+            "edit_history_tweet_ids": [
+                "1583103769503375360"
+            ]
         },
         {
             "entities": {
-                "hashtags": [
-                    {
-                        "start": 188,
-                        "end": 202,
-                        "tag": "climatechange"
-                    },
-                    {
-                        "start": 203,
-                        "end": 217,
-                        "tag": "climateaction"
-                    },
-                    {
-                        "start": 218,
-                        "end": 226,
-                        "tag": "climate"
-                    },
-                    {
-                        "start": 227,
-                        "end": 241,
-                        "tag": "globalwarming"
-                    },
-                    {
-                        "start": 242,
-                        "end": 256,
-                        "tag": "savetheplanet"
-                    },
-                    {
-                        "start": 257,
-                        "end": 274,
-                        "tag": "fridaysforfuture"
-                    }
-                ],
                 "urls": [
                     {
-                        "start": 164,
-                        "end": 187,
-                        "url": "https://t.co/9xhXqWuRrI",
-                        "expanded_url": "https://climatechangetracker.org",
-                        "display_url": "climatechangetracker.org",
+                        "start": 66,
+                        "end": 89,
+                        "url": "https://t.co/V4R64LXDVd",
+                        "expanded_url": "http://cellartracker.com/w?1953016",
+                        "display_url": "cellartracker.com/w?1953016",
                         "images": [
                             {
-                                "url": "https://pbs.twimg.com/news_img/1577213138650685440/SJ8Hkj-8?format=jpg&name=orig",
-                                "width": 1000,
-                                "height": 646
+                                "url": "https://pbs.twimg.com/news_img/1578061975971454980/3OKanMmU?format=jpg&name=orig",
+                                "width": 768,
+                                "height": 1024
                             },
                             {
-                                "url": "https://pbs.twimg.com/news_img/1577213138650685440/SJ8Hkj-8?format=jpg&name=150x150",
+                                "url": "https://pbs.twimg.com/news_img/1578061975971454980/3OKanMmU?format=jpg&name=150x150",
                                 "width": 150,
                                 "height": 150
                             }
                         ],
                         "status": 200,
-                        "title": "Climate Change Tracker",
-                        "description": "\ud83c\udf0e The easiest way to track Climate Change signals, metrics and insights like temperatures, human greenhouse gas emissions and more. Check it out! \ud83d\udcab",
-                        "unwound_url": "https://climatechangetracker.org"
-                    },
-                    {
-                        "start": 275,
-                        "end": 298,
-                        "url": "https://t.co/Z7MPpyrmIU",
-                        "expanded_url": "https://twitter.com/cct_earth/status/1580126103103938560/photo/1",
-                        "display_url": "pic.twitter.com/Z7MPpyrmIU",
-                        "media_key": "3_1580125930730708994"
-                    }
-                ]
-            },
-            "id": "1580126103103938560",
-            "edit_history_tweet_ids": [
-                "1580126103103938560"
-            ],
-            "text": "\u201cIn ancient times having power meant having access to data. Today having power means knowing what to ignore.\u201d\n\nYuval Noah Harari, Homo Deus: A History of Tomorrow\n\nhttps://t.co/9xhXqWuRrI\n#climatechange #climateaction #climate #globalwarming #savetheplanet #fridaysforfuture https://t.co/Z7MPpyrmIU",
-            "public_metrics": {
-                "retweet_count": 1,
-                "reply_count": 0,
-                "like_count": 2,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:19:54.000Z",
-            "author_id": "1451614413023285251"
-        },
-        {
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 55,
-                        "end": 59,
-                        "username": "WMO",
-                        "id": "113062227"
+                        "title": "2011 Clarendon Hills Cabernet Sauvignon Sandown, Australia, South Australia, Fleurieu, Clarendon - CellarTracker",
+                        "description": "Average of 91.5 points in 32 community wine reviews on 2011 Clarendon Hills Cabernet Sauvignon Sandown, plus professional notes, label images, wine details, and recommendations on when to drink.",
+                        "unwound_url": "https://www.cellartracker.com/wine.asp?iWine=1953016"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 133,
-                        "end": 147,
-                        "tag": "climatechange"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 285,
-                        "end": 308,
-                        "url": "https://t.co/LRrXxb6eg6",
-                        "expanded_url": "https://twitter.com/WMO/status/1579788913333387264",
-                        "display_url": "twitter.com/WMO/status/157\u2026"
+                        "start": 60,
+                        "end": 65,
+                        "tag": "wine"
                     }
                 ]
             },
-            "id": "1580125715541872640",
-            "edit_history_tweet_ids": [
-                "1580125715541872640"
-            ],
-            "text": "The 2022 State of Climate Services: Energy report from @WMO highlights the huge opportunities for green powered grids to help tackle #climatechange, improve air quality, conserve water resources, protect the environment, create jobs &amp; safeguard a better future for us all.\n\nMore\u2b07\ufe0f https://t.co/LRrXxb6eg6",
-            "public_metrics": {
-                "retweet_count": 4,
-                "reply_count": 0,
-                "like_count": 7,
-                "quote_count": 0
-            },
-            "created_at": "2022-10-12T09:18:22.000Z",
-            "author_id": "192942213"
-        },
-        {
-            "entities": {
-                "mentions": [
-                    {
-                        "start": 24,
-                        "end": 30,
-                        "username": "quorn",
-                        "id": "51295021"
-                    },
-                    {
-                        "start": 35,
-                        "end": 49,
-                        "username": "RaghnaidShine",
-                        "id": "4047449115"
-                    }
-                ],
-                "hashtags": [
-                    {
-                        "start": 129,
-                        "end": 137,
-                        "tag": "Seaweed"
-                    },
-                    {
-                        "start": 138,
-                        "end": 144,
-                        "tag": "Algae"
-                    },
-                    {
-                        "start": 145,
-                        "end": 159,
-                        "tag": "ClimateChange"
-                    },
-                    {
-                        "start": 160,
-                        "end": 174,
-                        "tag": "ClimateAction"
-                    },
-                    {
-                        "start": 175,
-                        "end": 192,
-                        "tag": "StoriesWithHeart"
-                    }
-                ],
-                "urls": [
-                    {
-                        "start": 193,
-                        "end": 216,
-                        "url": "https://t.co/AnyRv73xRd",
-                        "expanded_url": "https://twitter.com/NorthernHeartF/status/1580125703780999168/photo/1",
-                        "display_url": "pic.twitter.com/AnyRv73xRd",
-                        "media_key": "3_1580125192180977665"
-                    }
-                ]
-            },
-            "id": "1580125703780999168",
-            "edit_history_tweet_ids": [
-                "1580125703780999168"
-            ],
-            "text": "Ocean Greens, funded by @Quorn and @RaghnaidShine, will be screening at SeeM\u00f4r Film Festival Anglesey on the 22nd of October! \ud83e\udd42\n\n#Seaweed #Algae #ClimateChange #ClimateAction #StoriesWithHeart https://t.co/AnyRv73xRd",
+            "text": "Purchased 2011 Clarendon Hills Cabernet Sauvignon Sandown - #wine https://t.co/V4R64LXDVd",
+            "created_at": "2022-10-20T14:31:16.000Z",
+            "author_id": "74647834",
+            "id": "1583103563303002114",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 0,
                 "quote_count": 0
             },
-            "created_at": "2022-10-12T09:18:19.000Z",
-            "author_id": "848925007011090433"
+            "edit_history_tweet_ids": [
+                "1583103563303002114"
+            ]
         },
         {
             "entities": {
-                "mentions": [
+                "urls": [
                     {
-                        "start": 244,
-                        "end": 252,
-                        "username": "IPCC_CH",
-                        "id": "192942213"
+                        "start": 42,
+                        "end": 65,
+                        "url": "https://t.co/IDACudKXyt",
+                        "expanded_url": "https://paper.li/Came4Wine/1400596137?share_id=ccad9820-5083-11ed-ad57-fa163e65ae25",
+                        "display_url": "paper.li/Came4Wine/1400\u2026",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1583103504054308864/eQOp4plJ?format=jpg&name=orig",
+                                "width": 1200,
+                                "height": 630
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1583103504054308864/eQOp4plJ?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Northern Portgual Travel Guide: Porto and the Douro Valley",
+                        "description": "mensjournal.com Northern Portugal is famous for its fortified wine and spectacular Old Europe-style road trips from Porto to the Douro Valley.",
+                        "unwound_url": "https://paper.li/Came4Wine/1400596137?share_id=ccad9820-5083-11ed-ad57-fa163e65ae25"
                     }
                 ],
                 "hashtags": [
                     {
-                        "start": 1,
-                        "end": 15,
-                        "tag": "Climatechange"
+                        "start": 13,
+                        "end": 24,
+                        "tag": "Enotourism"
                     },
                     {
-                        "start": 166,
-                        "end": 179,
-                        "tag": "climaterisks"
+                        "start": 105,
+                        "end": 110,
+                        "tag": "wine"
                     },
                     {
-                        "start": 254,
-                        "end": 261,
-                        "tag": "FLLoCA"
-                    },
-                    {
-                        "start": 262,
-                        "end": 276,
-                        "tag": "ClimateAction"
+                        "start": 111,
+                        "end": 118,
+                        "tag": "travel"
                     }
                 ],
-                "urls": [
+                "mentions": [
                     {
-                        "start": 277,
-                        "end": 300,
-                        "url": "https://t.co/nESGRx0pKc",
-                        "expanded_url": "https://twitter.com/climate_ke/status/1580125667509010433/photo/1",
-                        "display_url": "pic.twitter.com/nESGRx0pKc",
-                        "media_key": "3_1580125412084137984"
+                        "start": 76,
+                        "end": 91,
+                        "username": "WineEnthusiast",
+                        "id": "7768622"
+                    },
+                    {
+                        "start": 92,
+                        "end": 104,
+                        "username": "foodandwine",
+                        "id": "30278532"
                     }
                 ]
             },
-            "id": "1580125667509010433",
+            "text": "\u00a1Came4wine's #Enotourism magazine is out! https://t.co/IDACudKXyt Thanks to @WineEnthusiast @foodandwine #wine #travel",
+            "created_at": "2022-10-20T14:30:52.000Z",
+            "author_id": "2433299538",
+            "id": "1583103461414998016",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
             "edit_history_tweet_ids": [
-                "1580125667509010433"
-            ],
-            "text": "\u201c#Climatechange is a grave and mounting threat to our wellbeing and a healthy planet. Our actions today will shape how people adapt and nature responds to increasing #climaterisks. Half measures are no longer an option.\u201d \n\n\u2013 Hoesung Lee, Chair @IPCC_CH\n\n#FLLoCA #ClimateAction https://t.co/nESGRx0pKc",
+                "1583103461414998016"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 162,
+                        "end": 185,
+                        "url": "https://t.co/z2t7ruPaCY",
+                        "expanded_url": "https://twitter.com/10K60Packaging/status/1583103372697120774/photo/1",
+                        "display_url": "pic.twitter.com/z2t7ruPaCY",
+                        "media_key": "3_1583103371312975874"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 137,
+                        "end": 147,
+                        "tag": "packaging"
+                    },
+                    {
+                        "start": 148,
+                        "end": 153,
+                        "tag": "wine"
+                    },
+                    {
+                        "start": 154,
+                        "end": 159,
+                        "tag": "fish"
+                    }
+                ]
+            },
+            "text": "These wine bottles were designed to look like fish but also echo design elements of simplicity and bold styling.\u2060\n\u2060\u2060\n\ud83d\udcf8Backbone Branding\u2060 #packaging #wine #fish\n\u2060 https://t.co/z2t7ruPaCY",
+            "created_at": "2022-10-20T14:30:31.000Z",
+            "author_id": "1292268007587287041",
+            "id": "1583103372697120774",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "edit_history_tweet_ids": [
+                "1583103372697120774"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 26,
+                        "end": 49,
+                        "url": "https://t.co/QZT3DCJeoa",
+                        "expanded_url": "http://www.kriskoeller.com/photos/2013/2013-10-20-dustin-and-rose-part-iv.htm",
+                        "display_url": "kriskoeller.com/photos/2013/20\u2026",
+                        "images": [
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1583103283224522754/_47NFh0J?format=jpg&name=orig",
+                                "width": 2560,
+                                "height": 1709
+                            },
+                            {
+                                "url": "https://pbs.twimg.com/news_img/1583103283224522754/_47NFh0J?format=jpg&name=150x150",
+                                "width": 150,
+                                "height": 150
+                            }
+                        ],
+                        "status": 200,
+                        "title": "Dustin and Rose Part IV",
+                        "description": "Dustin and Rose Part IV",
+                        "unwound_url": "https://www.kriskoeller.com/photos/2013/2013-10-20-dustin-and-rose-part-iv.htm"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 50,
+                        "end": 60,
+                        "tag": "dustinkim"
+                    },
+                    {
+                        "start": 61,
+                        "end": 72,
+                        "tag": "longisland"
+                    },
+                    {
+                        "start": 73,
+                        "end": 81,
+                        "tag": "newyork"
+                    },
+                    {
+                        "start": 82,
+                        "end": 92,
+                        "tag": "northfork"
+                    },
+                    {
+                        "start": 93,
+                        "end": 104,
+                        "tag": "rosechiang"
+                    },
+                    {
+                        "start": 105,
+                        "end": 117,
+                        "tag": "thehamptons"
+                    },
+                    {
+                        "start": 118,
+                        "end": 127,
+                        "tag": "vineyard"
+                    },
+                    {
+                        "start": 128,
+                        "end": 133,
+                        "tag": "wine"
+                    },
+                    {
+                        "start": 134,
+                        "end": 143,
+                        "tag": "wineries"
+                    }
+                ]
+            },
+            "text": "2013 Long Island Wineries https://t.co/QZT3DCJeoa #dustinkim #longisland #newyork #northfork #rosechiang #thehamptons #vineyard #wine #wineries",
+            "created_at": "2022-10-20T14:30:08.000Z",
+            "author_id": "13529402",
+            "id": "1583103276723372032",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "edit_history_tweet_ids": [
+                "1583103276723372032"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 102,
+                        "end": 125,
+                        "url": "https://t.co/7zAEHjIZ0s",
+                        "expanded_url": "https://twitter.com/WineJournalCA/status/1583102983994122240/photo/1",
+                        "display_url": "pic.twitter.com/7zAEHjIZ0s",
+                        "media_key": "3_1583102698001289216"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 65,
+                        "end": 70,
+                        "tag": "wine"
+                    }
+                ]
+            },
+            "text": "What if Shakespeare had focused his talents and attention on the #wine industry instead of the stage? https://t.co/7zAEHjIZ0s",
+            "created_at": "2022-10-20T14:28:58.000Z",
+            "author_id": "3253132040",
+            "id": "1583102983994122240",
+            "public_metrics": {
+                "retweet_count": 1,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "edit_history_tweet_ids": [
+                "1583102983994122240"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 183,
+                        "end": 206,
+                        "url": "https://t.co/4rd8ogskVT",
+                        "expanded_url": "https://twitter.com/BordeauxGuru/status/1583101598636523522/photo/1",
+                        "display_url": "pic.twitter.com/4rd8ogskVT",
+                        "media_key": "3_1583101586901028864"
+                    },
+                    {
+                        "start": 183,
+                        "end": 206,
+                        "url": "https://t.co/4rd8ogskVT",
+                        "expanded_url": "https://twitter.com/BordeauxGuru/status/1583101598636523522/photo/1",
+                        "display_url": "pic.twitter.com/4rd8ogskVT",
+                        "media_key": "3_1583101586901016576"
+                    },
+                    {
+                        "start": 183,
+                        "end": 206,
+                        "url": "https://t.co/4rd8ogskVT",
+                        "expanded_url": "https://twitter.com/BordeauxGuru/status/1583101598636523522/photo/1",
+                        "display_url": "pic.twitter.com/4rd8ogskVT",
+                        "media_key": "3_1583101586892546048"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 9,
+                        "end": 16,
+                        "tag": "chenin"
+                    },
+                    {
+                        "start": 59,
+                        "end": 64,
+                        "tag": "wine"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 127,
+                        "end": 143,
+                        "username": "chriswinedoctor",
+                        "id": "447112324"
+                    }
+                ]
+            },
+            "text": "There is #chenin and then there is Chenin. These show what #wine can be done with this varietal. Thanks for the recommendation @chriswinedoctor although it was painful on the wallet. https://t.co/4rd8ogskVT",
+            "created_at": "2022-10-20T14:23:28.000Z",
+            "author_id": "244974925",
+            "id": "1583101598636523522",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "edit_history_tweet_ids": [
+                "1583101598636523522"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 66,
+                        "end": 89,
+                        "url": "https://t.co/VxPIsF0n0Y",
+                        "expanded_url": "https://www.dailykeg.com/21874836/columbia-chief-on-whats-next-for-the-full-blown-beverage-co?via=tw",
+                        "display_url": "dailykeg.com/21874836/colum\u2026",
+                        "status": 200,
+                        "title": "Columbia Chief on What\u2019s Next for \u201cThe Full-Blown Beverage Co.\u201d",
+                        "description": "Dear Client: A couple weeks ago, Columbia Distributing chief Chris Steffanci joined Beernet Radio for a wide-ranging conversation that hit on all the hot topics. We talked labor environment, pricing, out-of-stocks, Blue Cloud and more.\u00a0 But of course, we talked plenty on Columbia itself too, which had been involved in two fascinating deals in the \u2026 Continue reading \"Columbia Chief on What\u2019s Next for \u201cThe Full-Blown Beverage Co.\u201d\" You are unauthorized to view this page.",
+                        "unwound_url": "https://www.dailykeg.com/21874836/columbia-chief-on-whats-next-for-the-full-blown-beverage-co?via=tw"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 90,
+                        "end": 95,
+                        "tag": "beer"
+                    },
+                    {
+                        "start": 96,
+                        "end": 105,
+                        "tag": "beernews"
+                    },
+                    {
+                        "start": 106,
+                        "end": 116,
+                        "tag": "craftbeer"
+                    },
+                    {
+                        "start": 117,
+                        "end": 126,
+                        "tag": "dailykeg"
+                    },
+                    {
+                        "start": 127,
+                        "end": 135,
+                        "tag": "brewery"
+                    },
+                    {
+                        "start": 136,
+                        "end": 141,
+                        "tag": "wine"
+                    },
+                    {
+                        "start": 142,
+                        "end": 149,
+                        "tag": "liquor"
+                    },
+                    {
+                        "start": 150,
+                        "end": 155,
+                        "tag": "beer"
+                    },
+                    {
+                        "start": 156,
+                        "end": 165,
+                        "tag": "business"
+                    }
+                ]
+            },
+            "text": "Columbia Chief on What\u2019s Next for \u201cThe Full-Blown Beverage Co.\u201d - https://t.co/VxPIsF0n0Y #beer #beernews #craftbeer #dailykeg #brewery #wine #liquor #beer #business",
+            "created_at": "2022-10-20T14:22:44.000Z",
+            "author_id": "1389580933657989120",
+            "id": "1583101415840698369",
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 0,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "edit_history_tweet_ids": [
+                "1583101415840698369"
+            ]
+        },
+        {
+            "entities": {
+                "urls": [
+                    {
+                        "start": 75,
+                        "end": 98,
+                        "url": "https://t.co/QywW2uFN0V",
+                        "expanded_url": "https://twitter.com/TorontoVino/status/1583101188186439682/photo/1",
+                        "display_url": "pic.twitter.com/QywW2uFN0V",
+                        "media_key": "3_1583101167365767169"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 20,
+                        "end": 30,
+                        "tag": "Sassicaia"
+                    },
+                    {
+                        "start": 31,
+                        "end": 36,
+                        "tag": "LCBO"
+                    },
+                    {
+                        "start": 37,
+                        "end": 42,
+                        "tag": "Wine"
+                    },
+                    {
+                        "start": 43,
+                        "end": 52,
+                        "tag": "Bolgheri"
+                    },
+                    {
+                        "start": 53,
+                        "end": 65,
+                        "tag": "SuperTuscan"
+                    },
+                    {
+                        "start": 66,
+                        "end": 74,
+                        "tag": "Toronto"
+                    }
+                ],
+                "annotations": [
+                    {
+                        "start": 21,
+                        "end": 29,
+                        "probability": 0.3083,
+                        "type": "Other",
+                        "normalized_text": "Sassicaia"
+                    },
+                    {
+                        "start": 32,
+                        "end": 35,
+                        "probability": 0.6936,
+                        "type": "Organization",
+                        "normalized_text": "LCBO"
+                    },
+                    {
+                        "start": 44,
+                        "end": 51,
+                        "probability": 0.5295,
+                        "type": "Person",
+                        "normalized_text": "Bolgheri"
+                    },
+                    {
+                        "start": 54,
+                        "end": 64,
+                        "probability": 0.4486,
+                        "type": "Other",
+                        "normalized_text": "SuperTuscan"
+                    },
+                    {
+                        "start": 67,
+                        "end": 73,
+                        "probability": 0.9417,
+                        "type": "Place",
+                        "normalized_text": "Toronto"
+                    }
+                ]
+            },
+            "text": "Long Live The King \n#Sassicaia #LCBO #Wine #Bolgheri #SuperTuscan #Toronto https://t.co/QywW2uFN0V",
+            "created_at": "2022-10-20T14:21:50.000Z",
+            "author_id": "201426046",
+            "id": "1583101188186439682",
             "public_metrics": {
                 "retweet_count": 0,
                 "reply_count": 0,
                 "like_count": 1,
                 "quote_count": 0
             },
-            "created_at": "2022-10-12T09:18:11.000Z",
-            "author_id": "1338728173442363392"
+            "edit_history_tweet_ids": [
+                "1583101188186439682"
+            ]
         }
     ],
+    "includes": {
+        "users": [
+            {
+                "username": "NewlandTapHull",
+                "name": "NewlandTapHull",
+                "public_metrics": {
+                    "followers_count": 42,
+                    "following_count": 34,
+                    "tweet_count": 15,
+                    "listed_count": 0
+                },
+                "id": "1577328217387565057",
+                "verified": false
+            },
+            {
+                "username": "CJGilchrist2",
+                "name": "CJGilchrist",
+                "public_metrics": {
+                    "followers_count": 664,
+                    "following_count": 976,
+                    "tweet_count": 9861,
+                    "listed_count": 8
+                },
+                "id": "1022243858",
+                "verified": false
+            },
+            {
+                "username": "3daywinereview",
+                "name": "John Glas",
+                "public_metrics": {
+                    "followers_count": 265,
+                    "following_count": 337,
+                    "tweet_count": 8960,
+                    "listed_count": 16
+                },
+                "id": "74647834",
+                "verified": false
+            },
+            {
+                "username": "Came4Wine",
+                "name": "Came4Wine",
+                "public_metrics": {
+                    "followers_count": 391,
+                    "following_count": 392,
+                    "tweet_count": 5027,
+                    "listed_count": 63
+                },
+                "id": "2433299538",
+                "verified": false
+            },
+            {
+                "username": "10K60Packaging",
+                "name": "Packinetics",
+                "public_metrics": {
+                    "followers_count": 108,
+                    "following_count": 119,
+                    "tweet_count": 4379,
+                    "listed_count": 3
+                },
+                "id": "1292268007587287041",
+                "verified": false
+            },
+            {
+                "username": "kpkdotcom",
+                "name": "kriskoeller.com",
+                "public_metrics": {
+                    "followers_count": 224,
+                    "following_count": 0,
+                    "tweet_count": 172757,
+                    "listed_count": 284
+                },
+                "id": "13529402",
+                "verified": false
+            },
+            {
+                "username": "WineJournalCA",
+                "name": "WineAdventureJournal",
+                "public_metrics": {
+                    "followers_count": 2716,
+                    "following_count": 2358,
+                    "tweet_count": 3407,
+                    "listed_count": 81
+                },
+                "id": "3253132040",
+                "verified": false
+            },
+            {
+                "username": "BordeauxGuru",
+                "name": "Philippe DesRosiers, DipWSET",
+                "public_metrics": {
+                    "followers_count": 422,
+                    "following_count": 75,
+                    "tweet_count": 2953,
+                    "listed_count": 25
+                },
+                "id": "244974925",
+                "verified": false
+            },
+            {
+                "username": "DailyKeg",
+                "name": "Daily Keg",
+                "public_metrics": {
+                    "followers_count": 85,
+                    "following_count": 163,
+                    "tweet_count": 9080,
+                    "listed_count": 1
+                },
+                "id": "1389580933657989120",
+                "verified": false
+            },
+            {
+                "username": "TorontoVino",
+                "name": "Victor Borja-Sheen\ud83c\udf77",
+                "public_metrics": {
+                    "followers_count": 18643,
+                    "following_count": 18592,
+                    "tweet_count": 27665,
+                    "listed_count": 250
+                },
+                "id": "201426046",
+                "verified": false
+            }
+        ]
+    },
     "meta": {
-        "newest_id": "1580127068763095040",
-        "oldest_id": "1580125667509010433",
+        "newest_id": "1583103830287298561",
+        "oldest_id": "1583101188186439682",
         "result_count": 10,
-        "next_token": "b26v89c19zqg8o3fpzejfsnhig0aairemgtmpxy451kl9"
+        "next_token": "b26v89c19zqg8o3fpzekp9gpinp8cr1whq65162ltyy65"
     }
 }
