@@ -6,13 +6,13 @@
         <form hx-post='{% url "request" %}' hx-target='#pdr' class='card-body'>
             <label for="hashtag"><h6>Hashtag:</h6></label>
             <input type="text" id="hashtag" name="hashtag"><br>
-            <label for="start_date"><h6>Start Date:</h6></label>
-            <input type="date" placeholder="dd-mm-yyyy" id="start_date" name="start_date"><br>
+            {% comment %} <label for="start_date"><h6>Start Date:</h6></label>
+            <input type="date" id="start_date" name="start_date"><br>
             <label for="end_date"><h6>End Date:</h6></label>
-            <input type="date" id="end_date" name="end_date"><br>
+            <input type="date" id="end_date" name="end_date"><br>{% endcomment %}
             <button class='btn btn-success submit' id='submit'>Submit</button>
-            <script>$('#start_id').val({{today}});</script>
         </form>
+        <a href='{% url "export" %}' class='btn, btn-primary' id='export'>Export to Excel</a>
     </div> 
     {%if tweets%}
     <table id='my_table'>
@@ -49,3 +49,11 @@
     </table>
     {%endif%}
 </div>
+
+<script>
+    $( document ).ready(function() {
+        {% comment %} today=new Date().toISOString().slice(0,10);
+        $('#start_date').val(today);
+        $('#end_date').val(today); {% endcomment %}
+    });
+</script>

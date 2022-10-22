@@ -1,12 +1,13 @@
 from django.http import HttpResponse, HttpResponseBadRequest, JsonResponse
 import requests
 import json
+import xlwt
 from datetime import datetime
 from django.shortcuts import render
 from django.conf import settings
 from django.views.generic.base import TemplateView
 from django.views.decorators.csrf import csrf_exempt
-from TweetSearch.models import Tweet, Hashtag
+from TweetSearch.models import Tweet
 
 api_key = settings.API_KEY
 api_key_secret = settings.API_KEY_SECRET
@@ -16,7 +17,7 @@ path = './'
 file_name = 'twitter_json'
 
 
-search_url = "https://api.twitter.com/2/tweets/search/all"
+search_url = "https://api.twitter.com/2/tweets/search/recent"
 
 def createFile(path, file_name, data):
     pathAndName = './'+path+'/'+file_name+'.json'
@@ -42,6 +43,8 @@ def create_query(user_hashtag):
     # Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
     # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
     query_params = {'query': '#'+ user_hashtag +' -is:retweet lang:en',
+                    #'start_time': start_date,
+                    #'end_time': end_date,
                     'user.fields': 'username,verified,public_metrics',
                     'tweet.fields': 'author_id,created_at,text,entities,public_metrics',
                     'expansions': "author_id",
@@ -53,12 +56,12 @@ def create_query2(user_hashtag, next_token):
     # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
     query_params = {'query': '#'+ user_hashtag +' -is:retweet lang:en',
                     'next_token': next_token,
-                    #'start_date': start_date,
-                    #'end_date': end_date,
+                    #'start_time': start_date,
+                    #'end_time': end_date,
                     'user.fields': 'username,verified,public_metrics',
                     'tweet.fields': 'author_id,created_at,text,entities,public_metrics',
                     'expansions': "author_id",
-                    'max_results': 10,}
+                    'max_results': 100,}
 
     return (query_params)
 
@@ -67,27 +70,32 @@ def collector(request):
     try:
         Tweet.objects.all().delete()
         user_hashtag = str(request.POST['hashtag'])
-        start_date = request.POST['start_date']
-        end_date = request.POST['end_date']
+        # if datetime.strptime(request.POST['start_date'],'%Y-%m-%d') == datetime.today():
+        #     start_iso=''
+        # else:
+        #     start_iso = datetime.strptime(request.POST['start_date'],'%Y-%m-%d').isoformat()
+        # end_iso = datetime.strptime(request.POST['end_date'],'%Y-%m-%d').isoformat()
         print(user_hashtag, type(user_hashtag))
-        # username = request.POST['username']
-        # nickname = request.POST['nickname']
-        # likes = request.POST['likes']
-        # retweets = request.POST['retweets']
-        # followers = request.POST['followers'] 
-        # verified = request.POST['verified']
         
         json_response = connect_to_endpoint(search_url, create_query(user_hashtag))
         counter = 0
         next_token = json_response['meta']['next_token']
         
-        while next_token or counter < 5:
+        while next_token and counter < 5:
             for t_tweet, t_user in zip(json_response['data'], json_response['includes']['users']):
                 print(t_tweet['created_at'])
                 date_string = datetime.strptime(t_tweet['created_at'], '%Y-%m-%dT%H:%M:%S.000Z')
+                hashtags = t_tweet['entities']['hashtags']
+                hashtag_string = ''
+                for hashtag in hashtags:
+                    if hashtag_string == '':
+                        hashtag_string = hashtag['tag']
+                    else:
+                        hashtag_string = hashtag_string +','+ hashtag['tag']
                 Tweet.objects.create(
                     t_id = t_tweet['author_id'],
                     t_text = t_tweet['text'],
+                    t_hashtags = hashtag_string,
                     t_username = t_user['username'],
                     t_nickname = t_user['name'],
                     t_likes = t_tweet['public_metrics']['like_count'],
@@ -96,11 +104,12 @@ def collector(request):
                     t_verified = t_user['verified'],
                     t_date = date_string,
                 )
-                hashtags = t_tweet['entities']['hashtags']
-                for hashtag in hashtags:
-                    Hashtag.objects.create(h_hashtag=hashtag['tag'], h_tweet = Tweet.objects.last())
+                
             json_response = connect_to_endpoint(search_url, create_query2(user_hashtag, next_token))
-            next_token = json_response['meta']['next_token']
+            if json_response['meta']['next_token']:
+                next_token = json_response['meta']['next_token']
+            else:
+                next_token = None
             counter = counter + 1
 
         createFile(path, file_name, json_response)
@@ -111,7 +120,33 @@ def collector(request):
         return render (request, 'search.html', {'data':''})
 
 def index(request):
-    return render(request,'index.html', {'tweets': Tweet.objects.all(), 'today': datetime.today()})
+    return render(request,'index.html', {'tweets': Tweet.objects.all()})
+
+
+def export(request):
+    response = HttpResponse(content_type='application/ms-excel')
+    response['Content-Disposition'] = 'attachment; filename=Dataset' + str(datetime.now()) + '.xls'
+    wb = xlwt.Workbook(encoding='utf-8')
+    ws = wb.add_sheet('Dataset')
+    row_num = 0
+    font_style = xlwt.XFStyle()
+    font_style.font.bold = True
+    columns = ['ID','Username','Nickname','Text','Hashjtags','Likes','Retweets','Followers','Verified']
+    for col_num in range(len(columns)):
+        ws.write(row_num, col_num, columns[col_num], font_style)
+    
+    rows = Tweet.objects.all().values_list('t_id','t_username','t_nickname','t_text','t_hashtags','t_likes','t_retweets', 't_followers','t_verified')
+    for row in rows:
+        row_num+=1
+        for col_num in range(len(row)):
+            ws.write(row_num, col_num, str(row[col_num]), font_style)
+    
+    wb.save(response)
+
+    return response
+
+
+
     
     
     
